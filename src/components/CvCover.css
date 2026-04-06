@@ -5,7 +5,7 @@
 }
 
 .container {
-  width: 45%;
+  width: 35%;
   height: 100%;
   border: 2px solid black;
   margin: 32px auto;
@@ -61,7 +61,7 @@
 }
 
 .education__section {
-    
+
 }
 
 .subtitle__edu {
@@ -88,10 +88,14 @@
 }
 
 
-.multi {
-    margin-top: 10px;
+.section__pt2 {
+    margin-top: 32px;
 }
 
 .Across__section {
     margin-bottom: 10%;
+}
+
+.Across__section p {
+    margin-top: 8px;
 }
