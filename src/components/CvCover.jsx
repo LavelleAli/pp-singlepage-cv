@@ -1,25 +1,26 @@
 import React from "react";
 import "./CvCover.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Nav = () => {
   return (
     <div className="container">
       <div className="row">
         <div className="header__line"></div>
-        <h1 className="header">Lavelle Ali</h1>
+        <h1 className="header"> Your Name</h1>
         <h4 className="subtitle"> <span className="text__color--green">Junior Frontend Developer</span> </h4>
         <ul className="personal__info">
           <li>
-            6252 Wellington Dr.
+            123 Yellow Brick Road
           </li>
           <li>
-            Union City, GA 30291
+            Wonderland, Oz
           </li>
           <li>
-             470-710-8282
+             123.456.78910
           </li>
           <li>
-            Lavelleali7@gmail.com
+            Sweetcameltoes@bubbly.com
           </li>
         </ul>
         <div className="skill__section">
@@ -43,7 +44,7 @@ const Nav = () => {
             <li>List of Achievements</li>
             <li>List of Achievements</li>
           </ul>
-          <p>Skills: List of Skills used or gained at this conpany </p>
+          <p>Skills: List of Skills used or gained at this company </p>
         </div>
         <div className="experience__section section__pt2">
           <p className="text__color--blue">Company Name, Location - Job Title</p>
@@ -53,12 +54,16 @@ const Nav = () => {
             <li>List of Achievements</li>
             <li>List of Achievements</li>
           </ul>
-          <p>Skills: List of Skills used or gained at this conpany </p>
+          <p>Skills: List of Skills used or gained at this company </p>
         </div>
 
         <div className="Across__section">
           <h4 className="subtitle"> <span className="text__color--green">Across the Internet</span> </h4>
-          <p>Add your LinkedIn, GitHub profile links</p>
+          <p>
+            <a href="https://github.com/LavelleAli/pp-singlepage-cv.git">
+              <FontAwesomeIcon icon="fa-brands fa-github" beat />
+            </a>
+          </p>
         </div>
       </div>
     </div>
