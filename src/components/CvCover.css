@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.row {
+    padding: 0 100px;
+}
+
+.header {
+    width: 100%;
+    margin-top: 64px ;
+    display: flex;
+    justify-content: center;
+}
+
+.subtitle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.personal__info {
+    width: 100%;
+    text-align: center;
+    margin-top: 32px;
+}
+.personal__info p {
+    margin-top: 10px;
+}
+
+.bold__text {
+    font-weight: 700;
+}
