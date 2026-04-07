@@ -71,5 +71,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # pp-singlepage-cv
 
 
-This is the URL for the project: pp-singlepage-cv.vercel.app
+This is the URL for the project: https://pp-singlepage-cv.vercel.app/
 
