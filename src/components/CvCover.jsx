@@ -1,8 +1,7 @@
-import React from "react";
 import "./CvCover.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const Nav = () => {
+const CvCover = () => {
   return (
     <div className="container">
       <div className="row">
@@ -70,4 +69,4 @@ const Nav = () => {
   );
 };
 
-export default Nav;
+export default CvCover;

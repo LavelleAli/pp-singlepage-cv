@@ -1,12 +1,7 @@
-import Nav from "./components/CvCover";
+import CvCover from "./components/CvCover";
 
 function App() {
-
-  
-
-  return (
-    <Nav />
-  );
+  return <CvCover />;
 }
 
 export default App;

@@ -48,20 +48,8 @@
   list-style: none;
   line-height: 1.5;
 }
-.personal__info p {
-  margin-top: 10px;
-}
-
-.bold__text {
-  font-weight: 700;
-}
-
 .skill__section p {
   margin-top: 8px;
-}
-
-.education__section {
-
 }
 
 .subtitle__edu {
